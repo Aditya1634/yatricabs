@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
+
+.logoContainer {
+  height: 3.6vw;
+  cursor: pointer;
+}
+
+.ContactNo {
+  height: 3.6vw;
+  cursor: pointer;
+}
+
+.download-app {
+  display: flex; 
+  gap: 2vw;
+  height: 3.6vw; 
+}
+
+.image-container {
+  height: 3.6vw;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
